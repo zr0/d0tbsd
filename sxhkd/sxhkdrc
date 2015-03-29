@@ -1,0 +1,108 @@
+# vim: set ft=sxhkdrc:
+#
+# bspwm hotkeys
+#
+
+mod4 + shift + e
+	bspc quit 1 
+
+# Close window
+mod4 + shift + q
+	bspc  window -c
+
+# Kill window
+mod4 + ctrl + shift + x
+	bspc  window -k
+
+# Toggle tile
+mod4 + {_,shift +} t
+	bspc window -t {floating,fullscreen}
+
+# Balance tree
+mod4 + b
+	bspc desktop -B
+
+# Presel window for splitting
+mod4 + ctrl + {Left,Down,Up,Right}
+	bspc window -p {left,down,up,right}
+
+# Select windows, or move
+mod4 + {_,shift + }{Left,Down,Up,Right}
+	bspc window -{f,s} {left,down,up,right} || bspc window -f {prev, prev, next, next}
+
+# Move floating windows (requires baskerville's xdo)
+mod4 + {Left,Right,Up,Down}
+    xdo move {-x -20,-x +20,-y -20,-y +20}
+
+# Move current window to largest space
+mod4 + shift + f
+	bspc window -s biggest
+
+# Mirror and flip leaves of tree
+mod4 + {comma,period}
+	bspc desktop -F {horizontal,vertical}
+
+# Rotate leaves of tree
+mod4 + shift + {comma,period}
+	bspc desktop -R {90,270}
+
+# Lock a window from closing
+mod4 + Escape
+	bspc window -t locked 
+
+# Toggle monocle
+mod4 + space 
+	bspc desktop -l next
+
+# Toggle pseudotiled (floating in tile)
+mod4 + shift + space 
+	bspc window -t pseudo_tiled
+
+mod4 + {_,shift + }{1-9,0}
+     bspc {desktop -f,window -d} ^{1-9,10}
+
+#
+# mouse bindings
+#
+
+# Move or resize window
+mod4 + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+
+# Needed for ^^^^
+mod4 + !button{1-3}
+    bspc pointer -t %i %i
+
+
+super + @button{1-3}
+    bspc pointer -u
+
+#
+# spawn programs
+#
+
+mod4 + shift + d
+        dmenu_run  -nb "#172b41" -nf "#b3b8c4" -sb "#58698c" -sf "#cccaca" -b
+
+mod4 + Return
+	urxvtc 
+
+mod4 + shift + b
+	firefox
+
+mod4 + shift + n
+	xterm
+
+Print
+	scrot -q 100
+
+#
+# Media keys
+#
+
+XF86Sleep
+        pm-suspend
+
+# make sxhkd reload its configuration files:
+mod4 + shift + Escape
+	pkill -USR1 -x sxhkd

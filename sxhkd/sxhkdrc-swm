@@ -1,0 +1,44 @@
+# vim: set ft=sxhkdrc:
+#
+# SWM
+#
+
+mod4 + shift + q
+        pkill swm
+
+mod4 + Return
+        urxvt
+
+mod4 + d
+        dmenu_run  -nb "#172b41" -nf "#b3b8c4" -sb "#58698c" -sf "#cccaca" -b
+
+mod4 + q
+        killw $(pfw)
+
+mod4 + Escape
+        kill -USR1 -x sxhkd
+
+mod4 + Down
+        wmv 0 10 $(pfw)
+
+mod4 + Up
+        wmv 0 -10 $(pfw)
+
+mod4 + Right
+        wmv 10 0 $(pfw)
+
+mod4 + Left
+        wmv -10 0 $(pfw)
+
+mod4 + l
+        wrs 10 0 $(pfw)
+
+mod4 + h
+        wrs -10 0 $(pfw)
+
+mod4 + j
+        wrs 0 -10 $(pfw)
+
+mod4 + k
+        wrs 0 10 $(pfw)
+~              

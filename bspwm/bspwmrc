@@ -1,0 +1,46 @@
+#!/usr/local/bin/bash
+
+bspc config border_width        5
+bspc config window_gap          20
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+#i=1
+#for monitor in $(bspc query -M); do
+#bspc monitor $monitor \
+#        -n "$i" \
+#        -d $i/{i,ii,iii,iv,v,vi,vii,viii,ix,x}
+#    let i++
+#done
+#unset i
+
+bspc config top_padding 14 
+
+# Visual options
+bspc config split_ratio         0.50
+bspc config borderless_monocle  true
+bspc config gapless_monocle     true
+bspc config focus_follows_pointer true
+bspc config auto_alternate true
+bspc config auto_cancel true
+bspc config normal_border_color "#58698c"
+bspc config active_border_color "#7086b2"
+bspc config focused_border_color "#66808c"
+bspc config presel_border_color "#7b8c58"
+bspc config urgent_border_color "#9db270"
+bspc config focused_locked_border_color "#b28c55"
+bspc config normal_frame_opacity 0.0
+bspc config focused_frame_opacity 0.1
+
+panel &
+
+# Rules
+#bspc rule -a chromium desktop=^2 floating=on 
+#bspc rule -a Skype pseudo_tiled=on
+#bspc rule -a Spotify pseudo_tiled=on
+#bspc rule -a Thunar pseudo_tiled=on
+#bspc rule -a Skype pseudo_tiled=on
+#bspc rule -a File-roller pseudo_tiled=on
+#bspc rule -a Transmission-gtk pseudo_tiled=on
+#bspc rule -a Conky sticky=on manage=off lower=on
+#bspc rule -a astime sticky=on
+#bspc rule -a feh floating=on manage=off
