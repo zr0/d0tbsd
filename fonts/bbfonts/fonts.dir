@@ -1,0 +1,13 @@
+12
+anorexia.bdf -local-anorexia-medium-r-normal--10-100-75-75-p-55-iso8859-1
+cure.bdf -local-cure-medium-r-normal--10-10-75-75-p-50-iso8859-1
+drift.bdf -local-drift-medium-r-normal-sans-11-100-75-75-m-60-iso8859-1
+edges.bdf -local-edges-medium-r-normal--10-100-75-75-c-60-iso8859-1
+gelly.bdf -local-gelly-medium-r-normal--9-80-75-75-p-62-iso8859-1
+glisp-bold.bdf -local-glisp-bold-r-normal-sans-10-100-75-75-p-66-iso8859-1
+glisp.bdf -local-glisp-normal-r-normal-sans-10-100-75-75-p-66-iso8859-1
+lime.bdf -local-lime-medium-r-normal--10-10-75-75-c-50-iso8859-1
+mints-mild.bdf -local-mints mild-medium-r-normal--7-70-75-75-p-62-iso8859-1
+mints-strong.bdf -local-mints strong-medium-r-normal--7-70-75-75-p-62-iso8859-1
+neoxis.pcf.gz -vc-neoxis-medium-r-normal--10-100-75-75-c-60-iso8859-1
+snap.bdf -local-snap-medium-r-normal-sans-10-10-75-75-p-66-iso8859-1
