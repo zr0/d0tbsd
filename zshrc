@@ -15,14 +15,13 @@ plugins=(command-coloring)
 # SOURCE
 source $ZSH/oh-my-zsh.sh
 
-
 # OPENBSD PKG_PATH
 export PKG_PATH=http://openbsd.mirror.frontiernet.net/pub/OpenBSD/5.6/packages/amd64
 
-# Panel
-export PANEL_FIFO="/tmp/panel-fifo"
-
-export PATH=$PATH:~/.config/bspwm/panel
+# GCC 
+export CPATH=/usr/X11R6/include
+export LIBRARY_PATH=/usr/X11R6/lib
+export LD_LIBRARY_PATH=/usr/X11R6/lib
 
 # COLOR MAN PAGE
 man() {
