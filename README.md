@@ -4,4 +4,4 @@ Configs and some stuff
 
    SS
 ===========
-![Screenshot](http://i.imgur.com/wejKfVm.png "screenshot")
+![Screenshot](http://i.imgur.com/KsQ7BaD.png "screenshot")
