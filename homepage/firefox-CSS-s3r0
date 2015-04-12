@@ -293,4 +293,8 @@ tabbrowser tabpanels, #appcontent > #content { background: var(--bg-light) !impo
     input, textarea { color: #222628 !important; -moz-appearance: none !important; }
 }*/
 
-#personal-bookmarks .bookmark-item > .toolbarbutton-icon {display:none!important}
+/* Tabs: no icons */
+.tabbrowser-tabs .tab-icon-image { display: none !important; }
+
+/* Bookmarks Toolbar: no icons */
+#personal-bookmarks .toolbarbutton-icon { display: none !important; }
