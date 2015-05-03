@@ -8,8 +8,6 @@
 ===========
 ![Screenshot](http://i.imgur.com/cKysjou.png "screenshot")
 ===========
-![Screenshot](http://i.imgur.com/06O4aGA.png "screenshot")
-===========
 ![Screenshot](http://i.imgur.com/3mQxlRf.png "screenshot")
 ===========
 ![Screenshot](http://i.imgur.com/nRmOP4P.png "screenshot")
