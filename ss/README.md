@@ -10,6 +10,6 @@
 ===========
 ![Screenshot](http://i.imgur.com/3mQxlRf.png "screenshot")
 ===========
-![Screenshot](http://i.imgur.com/nRmOP4P.png "screenshot")
-===========
 ![Screenshot](http://i.imgur.com/M56A3wJ.png "screenshot")
+===========
+![Screenshot](http://i.imgur.com/nRmOP4P.png "screenshot")
