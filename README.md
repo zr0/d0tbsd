@@ -1,4 +1,4 @@
-   s3r0
+   s3r0 - OpenBSD
 ===========
 Configs and some stuff
 
